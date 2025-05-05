@@ -1,0 +1,54 @@
+const int ledverde = 13;
+const int ledamarelo = 8;
+const int ledvermelho = 7;
+const int buzzer = 4;
+const int temp = A0;
+
+int valortemp = 0;
+float temperaturaC = 0.0;
+
+void setup() {
+  pinMode(ledverde, OUTPUT);
+  pinMode(ledamarelo, OUTPUT);
+  pinMode(ledvermelho, OUTPUT);
+  pinMode(buzzer, OUTPUT);
+  
+  Serial.begin(9600);
+}
+
+void loop() {
+  valortemp = analogRead(temp);
+  
+  temperaturaC = (valortemp * 5.0 * 100.0) / 1024.0;
+  
+  Serial.print("Temperatura: ");
+  Serial.print(temperaturaC);
+  Serial.println(" °C");
+  
+  if (temperaturaC < 40.0) {
+    digitalWrite(ledverde, HIGH);
+    digitalWrite(ledamarelo, LOW);
+    digitalWrite(ledvermelho, LOW);
+    digitalWrite(buzzer, LOW);
+  }
+  else if (temperaturaC >= 40.0 && temperaturaC < 65.0) {
+    digitalWrite(ledverde, LOW);
+    digitalWrite(ledamarelo, HIGH);
+    digitalWrite(ledvermelho, LOW);
+    digitalWrite(buzzer, LOW);
+  }
+  else if (temperaturaC >= 65.0 && temperaturaC <= 120.0) {
+    digitalWrite(ledverde, LOW);
+    digitalWrite(ledamarelo, HIGH);
+    digitalWrite(ledvermelho, LOW);
+    digitalWrite(buzzer, LOW);
+  }
+  else {
+    digitalWrite(ledverde, LOW);
+    digitalWrite(ledamarelo, LOW);
+    digitalWrite(ledvermelho, HIGH);
+    digitalWrite(buzzer, HIGH);
+  }
+  
+  delay(1000);
+}

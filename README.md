@@ -16,8 +16,6 @@ Esse repositório foi criado com o propósito de aprimorar as minhas habilidades
 - `code/`: Contém os códigos fonte (.ino, .py, etc.).
 - `README.md`: Documentação detalhada sobre o projeto.
 
-## Projetos
-
 # -__Sensor de Distância__-
 
 ## Materiais usados:

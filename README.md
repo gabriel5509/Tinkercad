@@ -1,4 +1,4 @@
-Bem-vindo, este repositório contém alguns projetos de circuitos feitos no Tinkercad com aplicações diversas.
+## Bem-vindo, este repositório contém alguns projetos de circuitos feitos no Tinkercad com aplicações diversas.
 
 ## Sobre o Projeto
 
@@ -16,7 +16,7 @@ Esse repositório foi criado com o propósito de aprimorar as minhas habilidades
 - `code/`: Contém os códigos fonte (.ino, .py, etc.).
 - `README.md`: Documentação detalhada sobre o projeto.
 
-# -__Sensor de Distância__-
+## -__Sensor de Distância__-
 
 ## Materiais usados:
 - 1 Arduino Uno R3

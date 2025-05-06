@@ -19,12 +19,12 @@ Esse repositório foi criado com o propósito de aprimorar as minhas habilidades
 # -__Sensor de Distância__-
 
 ## Materiais usados:
-1 Arduino Uno R3
-1 Ultrasonic Distance Sensor
-1 Breadboard Small (protoboard)
-1 Piezo (buzzer)
-3 LEDs
-3 Resistores 220Ω
+- 1 Arduino Uno R3
+- 1 Ultrasonic Distance Sensor
+- 1 Breadboard Small (protoboard)
+- 1 Piezo (buzzer)
+- 3 LEDs
+- 3 Resistores 220Ω
 
 ## finalidade:
 - Pode ser usado como sensor de proximidade de um carro por exemplo,

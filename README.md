@@ -46,7 +46,7 @@ Esse repositório foi criado com o propósito de aprimorar as minhas habilidades
 
 ## -__Sensor de Temperatura__-
 
-## Materiais usados:
+### Materiais usados:
 - 1 Arduino Uno R3
 - 1 Temperature Sensor [TMP36]
 - 1 Breadboard Small (protoboard)

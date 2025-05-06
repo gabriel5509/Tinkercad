@@ -18,9 +18,9 @@ Esse repositório foi criado com o propósito de aprimorar as minhas habilidades
 
 ## Projetos
 
-#__Sensor de Distância__
+# __Sensor de Distância__
 
-##Materiais usados:
+## Materiais usados:
 1 Arduino Uno R3
 1 Ultrasonic Distance Sensor
 1 Breadboard Small (protoboard)
@@ -28,13 +28,13 @@ Esse repositório foi criado com o propósito de aprimorar as minhas habilidades
 3 LEDs
 3 Resistores 220Ω
 
-##finalidade:
+## finalidade:
 - Pode ser usado como sensor de proximidade de um carro por exemplo,
   dá um aviso sonoro de quando o carro está muito próximo à algum objeto quando o motorista estiver tentando estacionar.
 - Também pode ser usado para impedir que algum animal de estimação entre em algum lugar que não deve, ativando o aviso sonoro
   e espantando o animal para outro lugar.  
 
-##como foi feito:
+## como foi feito:
 # Funcionalidades importantes:
 - **Detecção de distância**: O sensor ultrassônico permite medir distâncias com precisão, sendo essencial para calcular o momento de ativar os alertas visuais e sonoros.
 - **Feedback sonoro e visual**: Os LEDs e o buzzer foram configurados para fornecer alertas de proximidade, simulando sistemas reais de estacionamento assistido.
@@ -47,9 +47,9 @@ Esse repositório foi criado com o propósito de aprimorar as minhas habilidades
 
 ---------------
 
-__Sensor de Temperatura__
+## __Sensor de Temperatura__
 
-##Materiais usados:
+## Materiais usados:
 1 Arduino Uno R3
 1 Temperature Sensor [TMP36]
 1 Breadboard Small (protoboard)
@@ -57,12 +57,12 @@ __Sensor de Temperatura__
 3 LEDs
 3 Resistores 220Ω
 
-##Finalidade:
+## Finalidade:
 - Pode ser usado em residências por exemplo, se a temperatura da cozinha estiver muito alta, haverá um aviso sonoro.
 - Também pode ser usado na criação de animais ou na incubação de ovos, já que monitorar a temperatura do ambiente nesses casos
   é essencial
 
-##Como foi feito:
+## Como foi feito:
 # Funcionalidades importantes:
 - **Monitoramento em tempo real**: O sensor TMP36 permite capturar mudanças de temperatura em tempo real, sendo ideal para uso em aplicações como monitoramento doméstico ou incubadoras.
 - **Alertas programáveis**: Os LEDs e o buzzer são ativados automaticamente quando a temperatura ultrapassa os limites pré-definidos, proporcionando segurança e praticidade.

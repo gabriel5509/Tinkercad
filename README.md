@@ -11,8 +11,7 @@ Esse repositório foi criado com o propósito de aprimorar as minhas habilidades
 ---
 
 ## -__Sensor de Distância__-
-[foto]https://github.com/gabriel5509/Tinkercad/edit/main/README.md
-
+[foto]https://github.com/gabriel5509/Tinkercad/blob/main/projeto_distancia.png
 ### Materiais usados:
 - 1 Arduino Uno R3
 - 1 Ultrasonic Distance Sensor
@@ -25,14 +24,14 @@ Esse repositório foi criado com o propósito de aprimorar as minhas habilidades
   dá um aviso sonoro de quando o carro está muito próximo à algum objeto quando o motorista estiver tentando estacionar.
 - Também pode ser usado para impedir que algum animal de estimação entre em algum lugar que não deve, ativando o aviso sonoro
   e espantando o animal para outro lugar.
-https://github.com/gabriel5509/Tinkercad/blob/main/projeto_temperatura.png
+[vídeo]https://github.com/gabriel5509/Tinkercad/blob/main/distancia.vid.mp4
 
 ### como foi feito:
 ### Funcionalidades importantes:
 - **Detecção de distância**: O sensor ultrassônico permite medir distâncias com precisão, sendo essencial para calcular o momento de ativar os alertas visuais e sonoros.
 - **Feedback sonoro e visual**: Os LEDs e o buzzer foram configurados para fornecer alertas de proximidade, simulando sistemas reais de estacionamento assistido.
 - **Versatilidade**: Este projeto pode ser adaptado facilmente para diversas aplicações, como robótica, segurança e automação residencial.
-https://github.com/gabriel5509/Tinkercad/edit/main/README.md
+[código]https://github.com/gabriel5509/Tinkercad/blob/main/cod_distancia.txt
 
 ### Dificuldades encontradas:
 - **Calibração do sensor**: Ajustar as medições do sensor ultrassônico para evitar leituras incorretas devido a interferências ou reflexos inesperados foi um desafio.
@@ -42,7 +41,7 @@ https://github.com/gabriel5509/Tinkercad/edit/main/README.md
 ---------------
 
 ## -__Sensor de Temperatura__-
-https://github.com/gabriel5509/Tinkercad/edit/main/README.md
+[foto]https://github.com/gabriel5509/Tinkercad/blob/main/projeto_temperatura.png
 
 ### Materiais usados:
 - 1 Arduino Uno R3
@@ -56,11 +55,16 @@ https://github.com/gabriel5509/Tinkercad/edit/main/README.md
 - Pode ser usado em residências por exemplo, se a temperatura da cozinha estiver muito alta, haverá um aviso sonoro.
 - Também pode ser usado na criação de animais ou na incubação de ovos, já que monitorar a temperatura do ambiente nesses casos
   é essencial
-https://github.com/gabriel5509/Tinkercad/edit/main/README.md  
+[vídeo]https://github.com/gabriel5509/Tinkercad/blob/main/temp_vid.mp4
 
 ### Como foi feito:
 ### Funcionalidades importantes:
 - **Monitoramento em tempo real**: O sensor TMP36 permite capturar mudanças de temperatura em tempo real, sendo ideal para uso em aplicações como monitoramento doméstico ou incubadoras.
 - **Alertas programáveis**: Os LEDs e o buzzer são ativados automaticamente quando a temperatura ultrapassa os limites pré-definidos, proporcionando segurança e praticidade.
 - **Versatilidade de aplicação**: O projeto pode ser adaptado para monitorar ambientes variados, como cozinhas, viveiros de animais ou até mesmo data centers
-https://github.com/gabriel5509/Tinkercad/edit/main/README.md
+https://github.com/gabriel5509/Tinkercad/blob/main/cod.temp.txt
+
+#### Dificuldades encontradas:
+- **Interpretação dos sinais do sensor**: Ajustar a leitura do sensor para garantir medições precisas foi desafiador.  
+- **Definição dos limites de temperatura**: Determinar os valores ideais para os alertas exigiu testes e ajustes.  
+- **Integração com os alertas**: Sincronizar LEDs e buzzer com as mudanças de temperatura foi um desafio para evitar falsos positivos ou atrasos.

@@ -33,6 +33,7 @@ Esse repositório foi criado com o propósito de aprimorar as minhas habilidades
 - **Detecção de distância**: O sensor ultrassônico permite medir distâncias com precisão, sendo essencial para calcular o momento de ativar os alertas visuais e sonoros.
 - **Feedback sonoro e visual**: Os LEDs e o buzzer foram configurados para fornecer alertas de proximidade, simulando sistemas reais de estacionamento assistido.
 - **Versatilidade**: Este projeto pode ser adaptado facilmente para diversas aplicações, como robótica, segurança e automação residencial.
+  
 [código]https://github.com/gabriel5509/Tinkercad/blob/main/cod_distancia.txt
 
 ### Dificuldades encontradas:
@@ -65,6 +66,7 @@ Esse repositório foi criado com o propósito de aprimorar as minhas habilidades
 - **Monitoramento em tempo real**: O sensor TMP36 permite capturar mudanças de temperatura em tempo real, sendo ideal para uso em aplicações como monitoramento doméstico ou incubadoras.
 - **Alertas programáveis**: Os LEDs e o buzzer são ativados automaticamente quando a temperatura ultrapassa os limites pré-definidos, proporcionando segurança e praticidade.
 - **Versatilidade de aplicação**: O projeto pode ser adaptado para monitorar ambientes variados, como cozinhas, viveiros de animais ou até mesmo data centers
+  
 [código]https://github.com/gabriel5509/Tinkercad/blob/main/cod.temp.txt
 
 #### Dificuldades encontradas:
